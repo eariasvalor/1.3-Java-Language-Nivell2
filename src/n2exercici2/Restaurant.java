@@ -46,11 +46,9 @@ public class Restaurant implements Comparable<Restaurant> {
     @Override
     public int compareTo(Restaurant r) {
         int result = this.name.compareTo(r.name);
-
         if (result == 0) {
             result = Integer.compare(r.score, this.score);
         }
-
         return result;
     }
 }
