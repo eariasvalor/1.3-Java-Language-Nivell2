@@ -3,8 +3,8 @@ package n2exercici1;
 import java.util.Objects;
 
 public class Restaurant {
-    private String name;
-    private int score;
+    public String name;
+    public int score;
 
     public Restaurant(String name, int score) {
         this.name = name;
